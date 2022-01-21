@@ -213,15 +213,35 @@ html,body{
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 33px;
+	margin-top: 20px;
+	margin-left: 10px;
 	padding:0;
-}/* navbar-brand */
+}/* navbar-brand left */
+
+
+.navbar-brand-distributed .navbar-nav-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+
+.navbar-brand-distributed h3{
+	color:  #fff;
+	font: bold 45px 'Nunito ExtraLight', cursive;
+	margin: 0;
+        padding: 10px
+}
+
+.navbar-brand-distributed h3 span{
+	color:  #4936f4;
+}
 
 /* wrapper-sticky */
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background:#0a034d
+	background: #0a034d;
 }
 
 /* sticky */
@@ -233,13 +253,14 @@ html,body{
 }
 
 .sticky  .navbar-brand{
-	margin-top:20px;
+	margin-top:9px;
 }
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
 .sticky  .navbar-default .navbar-nav li a:focus,
 .sticky  .navbar-default .navbar-nav li a:hover{
 	color: #fff;
+border-radius: 2px;
 	margin: 0px 0px;
 }
 .sticky .navbar-default .navbar-toggle ,
@@ -400,6 +421,7 @@ html,body{
 .single-slide-item  button.slide-btn:hover{
 	 background: transparent;
 	 color: #fff;
+         border-radius: 10px;
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
@@ -563,7 +585,8 @@ html,body{
 /*we-do-description*/
 .single-we-do-box{
 	background:#fff;
-	min-height: 345px
+	min-height: 345px;
+        border-radius: 0px;
 }
 /* we-do-info */
 .we-do-info {
@@ -606,6 +629,7 @@ html,body{
 .single-we-do-box:hover{
 	box-shadow:0 5px 20px rgba(112,134,230,.2);
 	opacity:1;
+        border-radius: 25px;
 }
 
 /*owl carousel*/
@@ -1556,7 +1580,7 @@ a:active.learn-btn{
 --------------------------------------*/
 .hm-footer{
     padding-bottom:68px;
-    background: #212135;
+    background: #0a034d
 }
 .hm-footer-details {
     margin-top: 120px;
@@ -1631,7 +1655,7 @@ footer-section {
 }
 
 .footer-distributed{
-	background: #666;
+	background: #0a034d;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -1655,10 +1679,12 @@ footer-section {
 
 /* The company logo */
 
+
 .footer-distributed h3{
 	color:  #fff;
 	font: bold 45px 'Nunito ExtraLight', cursive;
 	margin: 0;
+        padding: 10px
 }
 
 .footer-distributed h3 span{
@@ -1676,14 +1702,15 @@ footer-section {
 .footer-distributed .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
-  font-weight:400;
+	font-size: 17px;
+        font-weight:bold;
 	text-decoration: none;
-	color:  inherit;
+	color:  #ffff;
 }
 
 .footer-distributed .footer-company-name{
 	color:  #fff;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: bold;
 	margin: 0;
 }
@@ -1716,6 +1743,7 @@ footer-section {
 	display: inline-block;
 	color: #ffffff;
   font-weight:400;
+font-size: 19px;
 	vertical-align: middle;
 	margin:0;
 }
@@ -1730,6 +1758,7 @@ footer-section {
 .footer-distributed .footer-center p a{
 	color:  #fff;
 	text-decoration: none;;
+font-size: 19px;
 }
 
 .footer-distributed .footer-links a:before {
@@ -1753,9 +1782,11 @@ footer-section {
 }
 
 .footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #fff;
-	font-size: 20px;
+	display: block;
+text-align justify;        
+line-height: 20px;
+	color:  #ffff;
+	font-size: 18px;
 	font-weight: normal;
 	margin: 0;
 }
@@ -1763,7 +1794,7 @@ footer-section {
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-		font: bold 14px sans-serif;
+	font: bold 14px nurtio;
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -1778,8 +1809,8 @@ footer-section {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #4936f4;
-	border-radius: 2px;
+	background-color:  #333;
+	border-radius: 3px;
 
 	font-size: 20px;
 	color: #ffffff;
