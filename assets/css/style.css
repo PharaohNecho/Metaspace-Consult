@@ -12,10 +12,7 @@
 	-o-box-sizing:border-box;
 	-ms-box-sizing:border-box;
 	box-sizing:border-box;
-}
-@viewpoint {
-width: device-width;
-zoom: 1.0;
+
 }
 body{
 	font-size:14px;
@@ -246,7 +243,7 @@ border-radius: 2px;
 .sticky .navbar-default .navbar-toggle:focus,
 .sticky .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     margin-top: 15px;
 }/* sticky */
 
@@ -295,7 +292,7 @@ border-radius: 2px;
 /* navbar-toggle*/
 .navbar-default .navbar-toggle ,
 .navbar-default .navbar-toggle:focus,
- .navbar-default .navbar-toggle:hover, {
+.navbar-default .navbar-toggle:hover, {
     background-color: transparent;
     border: 2px solid #fff;
     margin-top: 25px;
