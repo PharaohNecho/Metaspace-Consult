@@ -529,6 +529,7 @@ html,body{
 		4. We-do
 --------------------------------------*/
 .we-do{
+	background: #f9faff;
 	padding: 115px 0 82px;
 }
 
@@ -576,6 +577,7 @@ html,body{
 .single-we-do-box{
 	background:#fff;
 	min-height: 345px
+	border-radius: 0px;
 }
 /* we-do-info */
 .we-do-info {
@@ -618,6 +620,7 @@ html,body{
 .single-we-do-box:hover{
 	box-shadow:0 5px 20px rgba(112,134,230,.2);
 	opacity:1;
+	border-radius: 25px;
 }
 
 /*owl carousel*/
