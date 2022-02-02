@@ -1,3 +1,4 @@
+
 /*==================================
 * Author        : "ThemeSine"
 * Template Name : Zombiz
@@ -1425,7 +1426,7 @@ a:active.learn-btn{
 --------------------------------------*/
 .clients{
 	background: #7370d8;
-	padding: 53px 0 0px;
+	padding: 33px 0 0px;
 	margin: 5px;
 	height: 100%;
 
@@ -1742,7 +1743,7 @@ border-radius: 10px;
 		15. New-project
 --------------------------------------*/
 .new-project {
-    padding: 72px 0 72px;
+    padding: 52px 0 72px;
    background-image:url(../../img/counter-banner.jpg);
 }
 .single-new-project h3{
