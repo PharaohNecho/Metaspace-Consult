@@ -212,12 +212,12 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background: rgba(115,112,216,1);
+	background:#0a034d;
 }
 
 /* sticky */
 .sticky{
-	background: rgba(115,112,216,1);
+	background: #0a034d;
 	padding: 10px 0px 0px;
 	height:80px;
 	color: #fff;
@@ -294,7 +294,7 @@ html,body{
     margin-top: 25px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #000;
+    background-color: #fff;
 
 }/* navbar-toggle*/
 
@@ -387,19 +387,42 @@ html,body{
 	-o-transition:.5s;
     transition: .5s;
 }
-
+.single-slide-item button.slide-btn-2,
+.single-slide-item  button:active .slide-btn-2 ,
+.single-slide-item button:focus .slide-btn-2{
+	display: inline-block;
+    background: #f5f5fb;
+    padding: 22px 22px;
+    color: #5549af;
+    border: 1px solid #f5f5fb;
+	font-size:16px;
+	font-weight:600;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin-right: 36px;
+	margin-bottom: 30px;
+	outline:0;
+	box-shadow:none;
+	-webkit-transition:.5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+        transition: .5s;
+}
 .single-slide-item  button.slide-btn:hover{
 	 background: transparent;
 	 color: #fff;
+	border-radius: 10px;
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/images/banner/banner1.jpg);
+	background-image:url(../../img/homepage2.png);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/images/banner/banner2.jpg);
+	background-image:url(../../img/homepage2.png);
 	position:relative;
 	z-index:1;
 }
