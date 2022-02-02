@@ -26,15 +26,6 @@ a,a:hover,a:active,a:focus {
 	text-decoration:none;
 	font-size:14px;
 	padding:0;
-}
-.logo{
-    color: #fff;
-    font-weight: 700;
-    font-size: 2rem;
-    text-decoration: none;
-}
-.logo span{
-    color: #4936f4;
 
 }
 h1,h2,h3,h4,h5,h6 { 
@@ -57,8 +48,7 @@ ul li {
 }
 select,input,textarea{box-shadow:none;outline:0!important;}
 
-}
-.html,body{
+html,body{
     height: 100%;
 	position: relative;
     z-index: 2;
@@ -180,38 +170,12 @@ select,input,textarea{box-shadow:none;outline:0!important;}
 .navbar-brand,
 .navbar-brand:hover,
 .navbar-brand:focus{
-	margin-top: 20px;
-	margin-left: 10px;
+	margin-top: 33px;
+
 	padding:0;
-}/* navbar-brand left */
+}/* navbar-brand */
 
 
-.navbar-brand-distributed .navbar-nav-left{
-	width: 40%;
-}
-
-/* The company logo */
-
-
-.navbar-brand-distributed h3{
-	color:  #fff;
-	font: bold 45px 'Nunito ExtraLight', cursive;
-	margin: 0;
-        padding: 10px
-}
-
-.navbar-brand-distributed h3 span{
-	color:  #4936f4;
-}
-.logo{
-    color: #fff;
-    font-weight: 700;
-    font-size: 2rem;
-    text-decoration: none;
-}
-.logo span{
-    color: #4936f4;
-}
 
 /* wrapper-sticky */
 .wrapper-sticky{
@@ -229,7 +193,7 @@ select,input,textarea{box-shadow:none;outline:0!important;}
 }
 
 .sticky  .navbar-brand{
-	margin-top:9px;
+	margin-top:20px;
 }
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
@@ -389,7 +353,7 @@ border-radius: 2px;
 	-ms-transition:.5s; 
 	-o-transition:.5s;
     transition: .5s;
-}}
+}
 .single-slide-item button.slide-btn-2,
 .single-slide-item  button:active .slide-btn-2 ,
 .single-slide-item button:focus .slide-btn-2{
@@ -1716,13 +1680,13 @@ border-radius: 10px;
 }
 .contact-office-address h3{
 	color: #fff;
-	font-size: 18px;
+	font-size: 14px;
 	font-family: 'Poppins', sans-serif;
 	text-transform:capitalize;
 }
 .contact-office-address p{
 	color: #fff;
-	font-size: 18px;
+	font-size: 14px;
 	margin-bottom: 14px;
 	font-family: 'Poppins', sans-serif;
 	margin-top: 30px;
@@ -1730,7 +1694,7 @@ border-radius: 10px;
 }
 .contact-online-address{
 	color:#fff;
-	font-size: 18px;
+	font-size: 14px;
 }
 .single-online-address {
 	position:relative;
@@ -1741,7 +1705,7 @@ border-radius: 10px;
 }
 .single-online-address span{
   position:absolute;
-  font-size: 18px;
+  font-size: 14px;
   left:25px;
   top:0;
   width:100%;
@@ -1770,8 +1734,8 @@ border-radius: 10px;
 		15. New-project
 --------------------------------------*/
 .new-project {
-    padding: 52px 0 72px;
-height: 10px;
+    padding: 72px 0 72px;
+
 background-image:url(../../img/counter-banner.jpg);
 
 }
@@ -1783,7 +1747,7 @@ background-image:url(../../img/counter-banner.jpg);
 
 }
 .single-new-project a.slide-btn,
-.single-new-project  a:active .slide-btn,
+.single-new-project  a:active .slide-btn ,
 .single-new-project a:focus .slide-btn{
 	display: inline-block;
     padding: 17px 42px;
