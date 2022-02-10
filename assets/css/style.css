@@ -1504,7 +1504,8 @@ a:active.learn-btn{
 /*single-news-box*/
 .single-news-box{
 	box-shadow:0 5px 30px 0px rgba(115,112,215,.2);
-	min-height: 420px;
+	min-height: 410px;
+	min-weight: 329px;
 	margin-bottom: 13px;
 	-webkit-transition: .5s;
     -moz-transition: .5s;
